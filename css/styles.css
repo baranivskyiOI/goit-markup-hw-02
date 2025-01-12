@@ -64,7 +64,7 @@ a{
 
 .hero-title{
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -77,6 +77,12 @@ a{
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
+}
+
+.hero-button:hover,
+.hero-button:focus{
+    background-color: #404bbf;
+    cursor: pointer;
 }
 
 /*-------------- benefits --------------*/
@@ -109,7 +115,7 @@ a{
 
 .ourteam-title {
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -117,7 +123,9 @@ a{
 
 .ourteam-list {}
 
-.ourteam-list-item {}
+.ourteam-list-item {
+    background-color: #fff;
+}
 
 .ourteam-item-img {}
 
@@ -128,6 +136,7 @@ a{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
 }
 
 .ourteam-item-text {
@@ -146,7 +155,7 @@ a{
 
 .ourportfolio-title {
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -184,4 +193,9 @@ a{
     color: #f4f4fd;
 }
 
-.footer-text {}
+.footer-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
